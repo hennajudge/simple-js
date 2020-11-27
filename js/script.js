@@ -1,36 +1,22 @@
 let pokemonList = [
-    // pokemon objects
-  ];
-  
-  for (let i = 0; i < pokemonList.length; i++){
-    // document.write("<p>" + pokemonList[i].name + "</p>");
-    // printing pokemonList[i]’s other details
-    // ...
+  { name: "Bulbasaur", height: 0.7, types: ["grass"] },
+  { name: "Charmander", height: 0.6, types: ["fire"] },
+  { name: "Golbat", height: 1.6, types: ["flying", "poison"] },
+  { name: "Alakazam", height: 1.5, types: ["psychic"] },
+];
+
+let pokemonList2 = [
+  { name: "bird", height: 0.7, types: ["grass"] },
+  { name: "cat", height: 0.6, types: ["fire"] },
+  { name: "dog", height: 1.6, types: ["flying", "poison"] },
+];
+
+function printArrayDetails(list){
+  for (let i = 0; i < list.length; i++){
+    document.write("<p>" + list[i].name + "</p>")
+    console.log(list[i].name);
   }
-  
-  for (let i = 0; i < pokemonList.length; i++){
-    // document.write("<p>" + pokemonList[i].name + "</p>");
-    // printing pokemonList[i]’s other details
-    // ...
-  }
-    {
-        name: 'Bulbasaur',
-        height;0.7,
-        types ['grass','poision']
-    }
-    
-    {
-        name: 'Charizard',
-        height;1.7,
-        types  ['fire', 'fyling']
-    }
-    
-    {
-        name:'squirtle',
-        height;1,
-        types ['water']
-    }
-    
-    console.log(pokemonList
-        )
-    //new
+}
+
+printArrayDetails(pokemonList2);
+printArrayDetails(pokemonList);
