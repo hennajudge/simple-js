@@ -10,4 +10,4 @@ if (height ==1.6) {
   for (let i = 0; i < list.length; i++){
     document.write("<p>" + pokemonList[i].name + "</p>")
   }
-  
+
